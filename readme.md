@@ -3,4 +3,4 @@
 
 ## Figma File With Design Assets
 
-<a href="https://www.figma.com/design/g282EN23H0NIuFfsDgovfF/Untitled?node-id=0-1&t=QqnNEmU3leRvKazR-1">Figma File</a>
+<a href="https://www.figma.com/design/g282EN23H0NIuFfsDgovfF/Untitled?node-id=0-1&t=QqnNEmU3leRvKazR-1" target="_blank">Figma File</a>

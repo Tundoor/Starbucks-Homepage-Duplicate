@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbucks Coffee Company</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./CSS Folder/styles.css">
+    <link rel="stylesheet" href="./CSS Folder/responsive.css">
+    <link rel="stylesheet" href="./CSS Folder/animations.css">
     <script src="index.js" defer></script> 
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="./favicon/site.webmanifest">
 
 
 </head>
@@ -82,7 +83,11 @@
     <footer>
         <section class="top-footer">
              <div>
-               <h1>About Us</h1>
+              <div class="about-us-header footer-header">
+               <h2>About Us</h2>
+               <img src="./Assets/Expand Arrow.svg" id="about-us-header-btn">
+              </div>
+               <div class="about-us-modal  footer-modal">
                 <a href="">Our Company</a>
                 <a href="">Our Coffee</a>
                 <a href="">About Starbucks</a>
@@ -90,56 +95,15 @@
                 <a href="">Investor Relations</a>
                 <a href="">Customer Service</a>
                 <a href="">Contact Us</a>
+               </div>
              </div>
-              <div>
-                <h1>Careers</h1>
-                <a href="">Culture and Values</a>
-                <a href="">Belonging At Starbucks</a>
-                <a href="">College Achievement Plan</a>
-                <a href="">Alumni Community</a>
-                <a href="">U.S Careers</a>
-                <a href="">International Careers</a>
-              </div>
-              <div>
-                <h1>Social Impact</h1>
-                 <a href="">Communities</a>
-                <a href="">Starbucks Foundation</a>
-                <a href="">Sustainability</a>
-                <a href="">Environmental and Social Impact Reporting</a>
-              </div>
-              <div>
-                <h1>For Business Parthners</h1>
-                 <a href="">Landlord Support Center</a>
-                <a href="">Suppliers</a>
-                <a href="">Corporate Gift Card Sales</a>
-                <a href="">Office and Foodservice Coffee</a>
-              </div>
-              <div>
-                <h1>Order and PicK Up</h1>
-                <a href="">Order on the App</a>
-                <a href="">Order on the Web</a>
-                <a href="">Delivery</a>
-                <a href="">Order and Pickup Options</a>
-                <a href="">Explore and Find Coffee for Home</a>
-              </div>
-        </section>
 
-         <section class="top-footer-mobile">
-             <div>
-               <h1>About Us</h1>
-               <div class="about-us-modal">
-                <a href="">Our Company</a>
-                <a href="">Our Coffee</a>
-                <a href="">About Starbucks</a>
-                <a href="">Starbucks Archive</a>
-                <a href="">Investor Relations</a>
-                <a href="">Customer Service</a>
-                <a href="">Contact Us</a>
-            </div>
-             </div>
               <div>
-                <h1>Careers</h1>
-                <div class="careers-modal">
+                <div class="career-header footer-header">
+               <h2>Careers</h2>
+               <img src="./Assets/Expand Arrow.svg" id="career-header-btn">
+              </div>
+                <div class="careers-modal  footer-modal">
                 <a href="">Culture and Values</a>
                 <a href="">Belonging At Starbucks</a>
                 <a href="">College Achievement Plan</a>
@@ -148,34 +112,47 @@
                 <a href="">International Careers</a>
                 </div>
               </div>
+
               <div>
-                <h1>Social Impact</h1>
-                <div class="Careers-modal">
+                <div class="social-header footer-header">
+               <h2>Social Impact</h2>
+               <img src="./Assets/Expand Arrow.svg" id="social-header-btn">
+              </div>
+                <div class="social-impact-modal footer-modal">
                  <a href="">Communities</a>
                 <a href="">Starbucks Foundation</a>
                 <a href="">Sustainability</a>
                 <a href="">Environmental and Social Impact Reporting</a>
                </div>
               </div>
+          
               <div>
-                <div class="Careers-modal">
-                <h1>For Business Parthners</h1>
+               <div class="business-header footer-header">
+               <h2>Business Partners</h2>
+               <img src="./Assets/Expand Arrow.svg" id="business-header-btn">
+              </div>
+                <div class="business-modal  footer-modal">
                  <a href="">Landlord Support Center</a>
                 <a href="">Suppliers</a>
                 <a href="">Corporate Gift Card Sales</a>
                 <a href="">Office and Foodservice Coffee</a>
-            </div>
+                </div>
               </div>
-              <div>
-                <div class="Careers-modal">
-                <h1>Order and PicK Up</h1>
+
+              <div>   
+                <div class="pick-up-header footer-header">
+               <h2>Order and Pick Up</h2>
+               <img src="./Assets/Expand Arrow.svg" id="pick-up-header-btn">
+              </div>
+                <div class="pick-up-modal  footer-modal">
                 <a href="">Order on the App</a>
                 <a href="">Order on the Web</a>
                 <a href="">Delivery</a>
                 <a href="">Order and Pickup Options</a>
                 <a href="">Explore and Find Coffee for Home</a>
               </div>
-              </div>
+             </div>
+
         </section>
 
         <hr>
@@ -197,8 +174,9 @@
               <a href="">Accesibility</a>
               <a href="">Cookie Preferences</a>
             </div>
-            <h1>&copy; 2025 Starbucks Coffee Company. All Rights Reserved.</h1>
-        </section>
+            <div class="copyright">
+            <p>&copy; 2025 Starbucks Coffee Company. All Rights Reserved.</p>
+       </div> 
     </footer>
 </body>
 </html>

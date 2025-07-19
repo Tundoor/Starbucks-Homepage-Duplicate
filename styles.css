@@ -70,7 +70,7 @@ main {
 }
 
 .advert-img {
-     display: block;
+display: block;
   width: 100vw;       
   height: 300px;     
   object-fit: cover;
@@ -78,40 +78,104 @@ main {
   padding: 0;
 }
 
-.menu-div {
-    background-color: var(--secondary-green);
-    color: var(--light-font-color);
+.menu-div, .join-div, .store-div, .learn-div {
     height: auto;
     padding: 25px;
     margin-bottom: 50px;
 }
 
-.menu-section img {
-    height: 250px; 
-}
-
-.menu-heading {
+.heading {
     font-family: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
 
-.menu-paragraph {
+.paragraph {
     font-size: 1.3rem;
     margin-bottom: 40px;
 }
 
-.menu-btn {
-    background-color: var(--secondary-green);
+.action-btn {
     border-radius: 50px;
-    border-color: var(--light-font-color);
     border-width: 1px;
     box-shadow: none;
     outline: none;
     margin-bottom: 20px;
-    color: var(--light-font-color);
     width: 150px;
     padding: 10px 20px 10px 20px;
     font-size: 1rem;
-    
+}
+
+/* Menu Section and store section */
+
+.menu-div, .store-div {
+    background-color: var(--secondary-green);
+    color: var(--light-font-color);
+}
+
+.menu-section img {
+    height: 250px; 
+    width: 100vw;
+}
+
+.menu-btn, .store-btn {
+     background-color: var(--secondary-green);
+     border-color: var(--light-font-color);
+      color: var(--light-font-color);
+}
+
+/* Join Section */
+
+.join-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-div {
+    order: 2;
+    background-color: var(--light-font-color);
+    color: var(--main-green);
+}
+
+.join-section img {
+    height: 200px; 
+}
+
+.join-btn {
+     background-color: var(--light-font-color);
+     border-color: var(--main-green);
+      color: var(--main-green);
+}
+
+/* Learn div */
+
+.learn-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-div {
+    order: 2;
+    background-color: var(--main-green);
+    color: var(--light-font-color);
+}
+
+.learn-section img {
+    height: 250px; 
+}
+
+.learn-btn {
+     background-color: var(--main-green);
+     border-color: var(--light-font-color);
+      color: var(--light-font-color);
+}
+
+/* T's and C's */
+
+.TandCs-paragraph {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.9em;
+    line-height: 1.8;
+    color: var(--main-color);
 }

@@ -1,5 +1,9 @@
 :root {
-     --main-color: ;
+     --main-color: #2A2A2A;
+     --light-font-color: #F7F0E4;
+     --main-green: #006242;
+     --secondary-green: #32462F;
+     
 }
 
 
@@ -7,9 +11,50 @@ html, body {
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+    background-color: #fffdfa;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+/* Nav Bar */ 
+
+.nav-bar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border-bottom: 2px solid black; */
+    box-shadow: 1px 0px 5px 0.3px rgba(0, 0, 0, 0.356);
+}
+
+.logo-div {
+    padding-left: 10px;
+}
+
+.logo {
+    width: 30px;
+}
+
+.hamburger {
+    padding-right: 20px;
+}
+
+.hamburger-btn {
+    border: none;
+    background-color: #fffdfa;
+    width: 25px; 
+}
+
+.hamburger-btn img {
+    width: 30px;
+    color: #3b3b3b;
+    
+}
+/* Hidden For mobile display */
+.mobile-div {
+    display: none;
 }

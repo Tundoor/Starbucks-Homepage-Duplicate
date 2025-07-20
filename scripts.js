@@ -16,7 +16,7 @@ let pickModal = $(".pick-up-modal")
 let modalOpen = false;
 
 function footerAnimation ( el, modal) {
-    if (!modalOpen) { 
+ if (!modalOpen) { 
     el.removeClass('collapse').addClass('expand');
     modal.css("display", "flex");
     modalOpen = true;

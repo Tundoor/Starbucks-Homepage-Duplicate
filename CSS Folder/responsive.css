@@ -17,7 +17,6 @@
     }
     .menu-div, .store-div {
         padding-top: 30px;
-        padding-right: 8%;
         margin-bottom: 0;
     }
     .heading {
@@ -26,10 +25,6 @@
 
     .paragraph {
         font-size: 1.7rem;
-    }
-
-    .menu-div, .join-div, .store-div, .learn-div {
-        width: 250px;
     }
 
      /* Join Section */
@@ -45,7 +40,6 @@
 
     .join-div, .learn-div {
         padding-top: 40px;
-       padding-left: 60px;
        margin-bottom: 0;
     }
 
@@ -61,17 +55,84 @@
         background-color: var(--main-green);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
 } 
 
+@media screen and (min-width: 780px) {
+    .social-links, .legal-footer-links {
+        margin-left: 20px;
+    }
+
+}
+
+
+    @media screen and (min-width: 1024px) {
+
+       .menu-div, .store-div,.join-div, .learn-div {
+        padding-top: 120px;
+        padding-bottom: 140px;
+        
+    }
+
+    .top-footer {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .top-footer div {
+        width: 150px;
+         margin-bottom: 30px;
+          margin-top: 20px;
+    }
+
+    .footer-header {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-header h2 {
+       font-size: 1.2rem;
+    }
+
+    .footer-header img {
+       display: none;
+     }
+
+    .footer-modal {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+         line-height: 1.3;
+    }
+
+    .footer-modal a {
+    margin-bottom: 35px;
+}
+
+
+    }
+
+    @media screen and (min-width: 1280px) {
+        .learn-section, .join-section, .menu-section, .store-section {
+            padding-top: 0;
+        }
+
+        .TandCs-paragraph {
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 700;
+        }
+
+        .social-links img {
+            width: 50px;
+        }
+    }
+
+    @media  screen and (min-width: 1440px) {
+        main {
+            width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    

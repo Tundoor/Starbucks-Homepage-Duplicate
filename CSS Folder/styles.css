@@ -96,15 +96,19 @@ display: block;
 }
 
 .action-btn {
+    border: none;
+    border-style: solid;
     border-radius: 50px;
     border-width: 1px;
-    box-shadow: none;
-    outline: none;
     margin-bottom: 20px;
     width: 150px;
     padding: 10px 20px 10px 20px;
     font-size: 1rem;
-    font-weight: 00;
+    background-color: transparent;
+}
+
+.action-btn:hover {
+     background-color:#00312149;
 }
 
 /* Menu Section and store section */

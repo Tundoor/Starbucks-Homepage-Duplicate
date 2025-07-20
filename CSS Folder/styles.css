@@ -45,6 +45,7 @@ html, body {
 }
 
 .hamburger-btn {
+    display: block;
     border: none;
     background-color: #fffdfa;
     width: 25px; 

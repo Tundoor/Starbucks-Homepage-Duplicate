@@ -64,6 +64,62 @@
 
 }
 
+@media screen and (min-width: 800px ) {
+      .hamburger-btn {
+         display: none;
+      }
+
+      .mobile-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+      }
+
+      .action-links-logo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .location-div {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-right: 30px;
+         font-size: 0.7rem;
+      }
+
+      .location-div img {
+        margin-right: 10px;
+      }
+
+      .sign-in-btn, .join-now-btn {
+         border: none;
+         border-style: solid;
+         border-width: 1px;
+         border-color: var(--main-color);
+         border-radius: 50px;
+         background-color: transparent;
+         padding: 10px 20px 10px 20px;
+         font-weight: 700;
+         margin-right: 10px;
+      }
+
+      .join-now-btn {
+        background-color: var(--main-color);
+        color: var(--light-font-color);
+       margin-right: 0px;
+      }
+
+      .nav-links-logo a {
+        color: var(--main-color);
+        text-decoration: none;
+        font-weight: 700;
+        margin-left: 30px;
+      }
+}
+
 
     @media screen and (min-width: 1024px) {
 
